@@ -6,7 +6,7 @@ volumes:
 
 services:
   nginx:
-    image: nginx:latest
+    build: C:\Users\tsantora\PhpstormProjects\Dev-Enviro\pfv\nginx\
     ports:
       - 8080:80
     volumes:
@@ -18,13 +18,14 @@ services:
     expose:
       - 9000
     volumes:
-      -  C:\Users\tsantora\PhpstormProjects\Dev-Enviro\pfv\public_html/:/var/www/html
+      -  C:\Users\tsantora\PhpstormProjects\Dev-Enviro\pfv\public_html\:/var/www/html
+      -  C:\Users\tsantora\PhpstormProjects\Dev-Enviro\pfv\php\php.ini:/usr/local/etc/php/php.ini
   mysql:
     image: mysql:latest
     expose:
       - 3306
     volumes:
-      - database_data:/var/lib/mysql
+      - C:\Users\tsantora\PhpstormProjects\Dev-Enviro\pfv\mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: secret
       MYSQL_DATABASE: project
