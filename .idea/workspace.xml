@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0e0d0dd7-adb6-4d0b-99a6-714bc8eae85d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Dev-Enviro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Dev-Enviro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfv/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/pfv/nginx/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfv/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/pfv/nginx/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfv/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/pfv/php/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfv/public_html/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfv/php/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pfv/php/php.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/html/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
@@ -26,35 +23,17 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pfv/php/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="306">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfv/html/app/config/database.php">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="79" lean-forward="true" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfv/html/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfv/nginx/default.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            <state relative-caret-position="153">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -68,29 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env.dev.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pfv/html/.env.dev.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="476">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -98,8 +59,17 @@
       <file leaf-file-name="php.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pfv/php/php.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="1737" column="7" selection-start-line="1737" selection-start-column="1" selection-end-line="1737" selection-end-column="7" />
+            <state relative-caret-position="557">
+              <caret line="1004" column="53" selection-start-line="1004" selection-start-column="53" selection-end-line="1004" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my.cnf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pfv/nginx/my.cnf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -116,6 +86,7 @@
       <find>mcrypt</find>
       <find>SpiderSer</find>
       <find>Spider</find>
+      <find>mysql.de</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,7 +107,6 @@
         <option value="$PROJECT_DIR$/pfv/nginx/id_rsa.pub" />
         <option value="$PROJECT_DIR$/host.env" />
         <option value="$PROJECT_DIR$/../FIMS/public/index.php" />
-        <option value="$PROJECT_DIR$/pfv/php/php.ini" />
         <option value="$PROJECT_DIR$/pfv/html/bootstrap/autoload.php" />
         <option value="$PROJECT_DIR$/html/app/config/app.php" />
         <option value="$PROJECT_DIR$/pfv/html/vendor/composer/autoload_classmap.php" />
@@ -145,11 +115,14 @@
         <option value="$PROJECT_DIR$/pfv/nginx/Dockerfile" />
         <option value="$PROJECT_DIR$/pfv/php/Dockerfile" />
         <option value="$PROJECT_DIR$/pfv/nginx/default.conf" />
-        <option value="$PROJECT_DIR$/pfv/html/public/index.php" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/pfv/nginx/my.cnf" />
         <option value="$PROJECT_DIR$/pfv/html/.env.dev.php" />
+        <option value="$PROJECT_DIR$/pfv/php/php.ini" />
         <option value="$PROJECT_DIR$/pfv/html/app/config/database.php" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/pfv/html/public/index.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -160,9 +133,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/pfv/html/vendor/zurb/foundation/package.json" />
-    </packageJsonPaths>
+    <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -181,7 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,18 +167,20 @@
             <path>
               <item name="Dev-Enviro" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dev-Enviro" type="462c0819:PsiDirectoryNode" />
-              <item name="var" type="462c0819:PsiDirectoryNode" />
+              <item name="pfv" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dev-Enviro" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dev-Enviro" type="462c0819:PsiDirectoryNode" />
-              <item name="var" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="pfv" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,15 +233,17 @@
       <workItem from="1531232175168" duration="24203000" />
       <workItem from="1531319768124" duration="24253000" />
       <workItem from="1531405225346" duration="17087000" />
-      <workItem from="1531490617125" duration="16032000" />
+      <workItem from="1531490617125" duration="16557000" />
+      <workItem from="1531751001538" duration="19567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152354000" />
+    <option name="totallyTimeSpent" value="172446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -305,42 +279,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pfv/php/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="86" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfv/php/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8024">
-          <caret line="472" column="27" selection-start-line="472" selection-start-column="27" selection-end-line="472" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfv/nginx/default.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfv/nginx/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfv/public_html/public/index.php" />
     <entry file="file://$PROJECT_DIR$/pfv/php/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -476,47 +414,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="163" column="69" selection-start-line="163" selection-start-column="69" selection-end-line="163" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/workbench/michaeldrennen/laravel-bugify/vendor/composer/autoload_classmap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="44" lean-forward="true" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfv/nginx/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfv/php/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="1737" column="7" selection-start-line="1737" selection-start-column="1" selection-end-line="1737" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pfv/html/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/html/app/config/app.php" />
+    <entry file="file://$PROJECT_DIR$/html/workbench/michaeldrennen/laravel-bugify/vendor/composer/autoload_classmap.php" />
+    <entry file="file://$PROJECT_DIR$/html/composer.json" />
+    <entry file="file://$PROJECT_DIR$/my.cnf">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pfv/nginx/default.conf">
       <provider selected="true" editor-type-id="text-editor">
@@ -527,36 +429,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pfv/html/.env.dev.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfv/html/.env.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfv/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pfv/php/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="306">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pfv/html/app/config/database.php">
+    <entry file="file://$PROJECT_DIR$/pfv/php/php.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="79" lean-forward="true" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+        <state relative-caret-position="557">
+          <caret line="1004" column="53" selection-start-line="1004" selection-start-column="53" selection-end-line="1004" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfv/nginx/my.cnf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="476">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/pfv/html/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="11" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfv/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfv/html/app/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfv/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>

@@ -24,11 +24,12 @@ services:
       - $PHP_INI:/usr/local/etc/php/php.ini
   mysql:
     image: mysql:latest
-    command: --sql_mode="" && --innodb-log-pool-size=256M
+    command: --sql_mode=""
     ports:
       - "3306:3306"
     volumes:
       - $MYSQL_VOL:/var/lib/mysql
+      - $MYSQL_CNF:/etc/mysql/my.cnf
     environment:
       MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PW
       MYSQL_DATABASE: $MYSQL_DB
