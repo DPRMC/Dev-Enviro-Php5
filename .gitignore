@@ -9,7 +9,7 @@
 *.vi
 *~
 *.sass-cache
-*.env
+
 
 # OS or Editor folders
 .DS_Store
@@ -38,3 +38,6 @@ dwsync.xml
 intermediate
 .idea
 cache
+
+# Files to Ignore
+host.env
