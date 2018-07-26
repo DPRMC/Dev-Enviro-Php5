@@ -20,16 +20,15 @@ services:
     expose:
       - 9000
     volumes:
-      - $PHP_VOL:/var/www/html
+      - $PHP_VOL:/var/www/application
       - $PHP_INI:/usr/local/etc/php/php.ini
   mysql:
     image: mysql:latest
-    command: --sql_mode=""
+    command: --sql_mode="" --secure_file_priv="NULL" --innodb_strict_mode="0" --collation_server="utf8_unicode_ci" --character_set_server="utf8"  --default_authentication_plugin="mysql_native_password"
     ports:
       - "3306:3306"
     volumes:
       - $MYSQL_VOL:/var/lib/mysql
-      - $MYSQL_CNF:/etc/mysql/my.cnf
     environment:
       MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PW
       MYSQL_DATABASE: $MYSQL_DB

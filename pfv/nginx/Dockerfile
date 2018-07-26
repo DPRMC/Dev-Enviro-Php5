@@ -1,3 +1,3 @@
 FROM nginx
 
-WORKDIR /var/www/html
+WORKDIR /var/www/application

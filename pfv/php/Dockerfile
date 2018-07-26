@@ -25,10 +25,6 @@ RUN apt-get update && \
 
 RUN apt-get install -y zlib1g-dev && rm -rf /var/lib/apt/lists/* && docker-php-ext-install zip
 
-RUN apt-get update && \
-    apt-get install -y libmcrypt-dev && \
-    docker-php-ext-install mcrypt
-
 RUN apt-get install -y zlib1g-dev libicu-dev g++ && \
     docker-php-ext-configure intl && \
     docker-php-ext-install intl
@@ -40,4 +36,4 @@ RUN curl -o /tmp/composer-setup.php https://getcomposer.org/installer \
 && php /tmp/composer-setup.php --no-ansi --install-dir=/usr/local/bin --filename=composer --snapshot \
 && rm -f /tmp/composer-setup.*
 
-WORKDIR /var/www/html
+WORKDIR /var/www/application
