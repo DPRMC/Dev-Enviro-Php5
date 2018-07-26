@@ -1,4 +1,4 @@
-FROM php:5.6-fpm
+FROM php:7.2.7-fpm
 
 # Install needed packages for PHP
 
@@ -24,6 +24,10 @@ RUN apt-get update && \
     docker-php-ext-install gd
 
 RUN apt-get install -y zlib1g-dev && rm -rf /var/lib/apt/lists/* && docker-php-ext-install zip
+
+#RUN apt-get update && \
+#    apt-get install -y libmcrypt-dev && \
+#    docker-php-ext-install mcrypt
 
 RUN apt-get install -y zlib1g-dev libicu-dev g++ && \
     docker-php-ext-configure intl && \
