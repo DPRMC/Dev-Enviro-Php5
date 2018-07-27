@@ -1,4 +1,4 @@
-FROM php:7.2.7-fpm
+FROM php:5.6-fpm
 
 # Install needed packages for PHP
 
